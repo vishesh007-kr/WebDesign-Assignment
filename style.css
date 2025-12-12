@@ -1,46 +1,48 @@
-body {
+body{
     font-family: Arial, sans-serif;
+    background-color: lightgray;
+    text-align: center;
     margin: 20px;
 }
-h1 {
-    text-align: center;
+h1{
+    color: black;
+    font-size: 30px;
 }
-/* ---------------- BLOCK EXAMPLE ---------------- */
-.block-menu a {
-    display: block;
-    background: #2f95dc;
-    padding: 10px;
+.product-box {
+    background-color: white;
+    width: 300px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 2px solid gray;
+    border-radius: 8px;
+}
+.product-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.product-box h2 {
+    color: black;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.description {
+    color: dimgray;
+    font-size: bold;
+    margin: 10px 0;
+}
+.price {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+button {
+    background-color: green;
     color: white;
-    text-decoration: none;
-    margin-bottom: 5px;
-}
-/* ---------------- INLINE EXAMPLE ---------------- */
-.inline-menu a {
-    display: inline;
-    padding: 5px 15px;
-    background: #4fc97a;
-    color: white;
-    text-decoration: none;
-    margin-right: 8px;
-}
-/* ---------------- INLINE-BLOCK EXAMPLE ---------------- */
-.inline-block-menu a {
-    display: inline-block;
     padding: 10px 20px;
-    background: #9a4fbf;
-    color: white;
-    text-decoration: none;
-    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
 }
-/* ---------------- FLOAT EXAMPLE ---------------- */
-.float-menu a {
-    float: left;
-    padding: 10px 20px;
-    background: #d97d2e;
-    color: white;
-    text-decoration: none;
-    margin-right: 10px;
-}
-.clear {
-    clear: both;
+button:hover {
+    background-color: darkgreen;
 }
